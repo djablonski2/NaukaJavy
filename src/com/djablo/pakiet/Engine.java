@@ -23,12 +23,22 @@ public class Engine {
     public void stop() {
         started = false;
     }
+
+    //getter
     public boolean isStarted() {
         return started;
     }
+
+    //setter
     public void setStarted(boolean started) {
         this.started = started;
     }
 
+    public Cogwheel getCogwheel() {
+        return cogwheel;
+    }
 
+    public void setCogwheel(Cogwheel cogwheel) {
+        this.cogwheel = cogwheel;
+    }
 }

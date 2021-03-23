@@ -2,7 +2,7 @@ package com.djablo.pakiet;
 
 import com.djablo.pakiet.Engine;
 
-public class Main {
+public class Silnik {
 
     public static void main(String[] args) {
         Engine engine = new Engine(); // tworzymy instancje klasy
